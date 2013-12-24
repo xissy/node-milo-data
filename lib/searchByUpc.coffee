@@ -2,8 +2,8 @@ SearchPage = require './SearchPage'
 AvailabilityPage = require './AvailabilityPage'
 
 
-module.exports = (searchKeyword, latitude, longitude, callback) ->
-  searchPage = new SearchPage searchKeyword, (err, products) ->
+module.exports = (upc, latitude, longitude, callback) ->
+  searchPage = new SearchPage upc, (err, products) ->
     return callback err  if err?
     return callback []  if products.length is 0
 
