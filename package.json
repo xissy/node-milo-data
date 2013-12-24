@@ -1,0 +1,20 @@
+{
+  "name": "milo-data",
+  "version": "0.0.1",
+  "description": "A node.js module to get offline store data from milo.",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/xissy/node-milo-data"
+  },
+  "author": "Taeho Kim <xissysnd@gmail.com>",
+  "dependencies": {
+    "coffee-script": "~1.6.3",
+    "async": "~0.2.9",
+    "request": "~2.30.0",
+    "cheerio": "~0.12.4"
+  },
+  "devDependencies": {
+    "mocha": "~1.16.2",
+    "should": "~2.1.1"
+  }
+}
